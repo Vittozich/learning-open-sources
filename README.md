@@ -194,7 +194,7 @@
 
 - [Канал с полными курсами по laravel](https://www.youtube.com/watch?v=IsS8HO4knBY&list=PLoonZ8wII66iYtCIjSytFjqysPDOjrJVn) `ru` `vid` `playlist` в целом информация устарела на 50%, не считая последних видео
 
-### Laravel и php тестирование <a name="backend-laravel-packages"></a>
+### Laravel работа с пакетами (+создание собственного) <a name="backend-laravel-packages"></a>
 
 Про установку и удаление пакетов для laravel нужно знать только несколько вещей: всё это работает через `composer`, все пакеты есть на [packagist](https://packagist.org/), всё это делается 2-мя командами `composer install nameOfPackage` и `composer remove nameOfPackage`, установка может быть с `--dev` или `--no-dev` приставкой - для попадания в необходимый список зависимостей файла `composer.json`.
 
