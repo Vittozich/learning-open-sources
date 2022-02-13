@@ -29,6 +29,7 @@
 - [x] <a href="#frontend"> Фронтенд </a> `7`
 - [x] <a href="#backend"> Бэкэнд</a>
   - [x] <a href="#backend-laravel"> Laravel </a> `5`
+    - [x] <a href="#backend-laravel-packages"> Laravel packages </a> `6`
     - [x] <a href="#backend-laravel-testing"> Laravel и php тестирование </a> `1`
   - [x] <a href="#backend-django"> Django </a> `4`
     - [x] <a href="#backend-django-testing"> Django и python тестирование</a> `5`
@@ -192,6 +193,13 @@
 ## Laravel <a name="backend-laravel"></a>
 
 - [Канал с полными курсами по laravel](https://www.youtube.com/watch?v=IsS8HO4knBY&list=PLoonZ8wII66iYtCIjSytFjqysPDOjrJVn) `ru` `vid` `playlist` в целом информация устарела на 50%, не считая последних видео
+
+### Laravel и php тестирование <a name="backend-laravel-packages"></a>
+
+Про установку и удаление пакетов для laravel нужно знать только несколько вещей: всё это работает через `composer`, все пакеты есть на [packagist](https://packagist.org/), всё это делается 2-мя командами `composer install nameOfPackage` и `composer remove nameOfPackage`, установка может быть с `--dev` или `--no-dev` приставкой - для попадания в необходимый список зависимостей файла `composer.json`.
+
+- [Краткий пример как создать пакет](https://www.youtube.com/watch?v=Hr8Zc2Zkcjg) `en` `vid`
+- [Подробный пример как создать пакет и разместить его на github и packagist с автообновлением](https://www.youtube.com/watch?v=H-euNqEKACA) `en` `vid`
 
 ### Laravel и php тестирование <a name="backend-laravel-testing"></a>
 
